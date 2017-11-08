@@ -1,0 +1,19 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:background="@drawable/customborder"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/threadName"
+        android:layout_weight="1"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="0"
+        android:src="@drawable/remove"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:id="@+id/delete_thread"/>
+</LinearLayout>
